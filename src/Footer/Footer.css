@@ -1,0 +1,14 @@
+footer {
+  height: 100px;
+  padding: 50px 0;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(26, 152, 166);
+  text-transform: uppercase;
+}

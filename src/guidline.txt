@@ -1,0 +1,11 @@
+1) search bar
+      get details about that specific movie
+2) get reviews
+
+3) get the latest movie (1)
+
+4) get upcoming
+
+5) get popular(main page)
+
+6) get top rated

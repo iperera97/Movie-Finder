@@ -1,1 +1,1 @@
-# Movie-Finder
+### Movie Finder Application in ReactJS

@@ -1,0 +1,32 @@
+.title {
+  text-align: center;
+}
+
+.title img {
+  width: 100px;
+}
+
+.title h2 {
+  font-size: 40px;
+  color: #0C0C0C;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar ul {
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 10px 25px;
+  list-style-type: none;
+}
+
+.navbar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #0C0C0C;
+}
