@@ -1,0 +1,47 @@
+.form fieldset {
+  border: none;
+  padding: 10px 0;
+}
+
+.form input[type="text"] {
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.match_bar {
+  background-color: #3F3F3F;
+  padding: 10px 25px;
+}
+
+.match_bar li {
+  list-style-type: none;
+  border-bottom: 1px solid silver;
+  padding: 5px 0;
+}
+
+.match_bar .each_match {
+  margin: 15px 0;
+}
+
+.match_bar .each_match img {
+  width: 75px;
+  display: inline-block;
+}
+
+.match_bar .each_match .info {
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px 20px;
+  color: #fff;
+}
+
+.match_bar.open {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 90%;
+}
+
+.match_bar.close {
+  display: none;
+}

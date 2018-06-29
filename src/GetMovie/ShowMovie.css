@@ -1,0 +1,85 @@
+.show_movie .poster,
+.show_movie .details {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.show_movie .poster {
+  width: 25%;
+}
+
+.show_movie .details {
+  width: 75%;
+}
+
+.show_movie .details h1,
+.show_movie .details h2,
+.show_movie .details p {
+  text-align: center;
+  margin: 20px 50px;
+}
+
+.show_movie .details h1 {
+  font-size: 40px;
+  color: rgb(26, 152, 166);
+}
+
+.show_movie .details h2 {
+  font-size: 25px;
+}
+
+.show_movie .details .genres {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.show_movie .details .genres p {
+  margin: 0;
+  padding: 10px 20px;
+  margin: 0 5px;
+  display: inline-block;
+  background-color: rgb(26, 152, 166);
+  color: #fff;
+}
+
+.show_movie .cast-block {
+  display: grid;
+  margin: 40px 0;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.show_movie .each_cast .info {
+  margin: 10px 0;
+}
+
+.show_movie .each_cast .info p {
+  font-size: 12px;
+}
+
+.show_movie .each_cast .info p span {
+  font-size: 14px;
+  color: rgb(26, 152, 166);
+}
+
+.show_movie .reviews h2 {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.show_movie .reviews p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.show_movie .reviews a {
+  text-decoration: none;
+  color: rgb(26, 152, 166);
+}
+
+.show_movie .video iframe {
+  display: block;
+  margin: 25px auto;
+  border: none;
+}
